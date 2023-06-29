@@ -213,7 +213,7 @@ module.exports = async (client, m, commands, chatUpdate) => {
       ];
       let buth = {
         text: `*Command Info*\n\n${data.join("\n")}`,
-        footer: "Eternity",
+        footer: "RONEN-BOTS",
         buttons: buttonss,
         headerType: 1,
       };
