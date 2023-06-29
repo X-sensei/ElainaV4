@@ -7,7 +7,7 @@ module.exports = {
     desc: "Will send you details of our bot",
     react: "🎐",
     
-    category: "General",
+    category: "Fun",
     start: async (client, m, {
         command,
         prefix,
