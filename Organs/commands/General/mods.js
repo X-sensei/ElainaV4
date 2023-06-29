@@ -17,9 +17,9 @@ module.exports = {
     }
     let urlll = [
       "https://media.tenor.com/zcaqzz-JWE8AAAPo/happy-anime.mp4",
-      "https://media.tenor.com/zcaqzz-JWE8AAAPo/happy-anime.mp4",
-      "https://media.tenor.com/zcaqzz-JWE8AAAPo/happy-anime.mp4",
-      "https://media.tenor.com/zcaqzz-JWE8AAAPo/happy-anime.mp4",
+      "https://media.tenor.com/lNkVGL4mLDAAAAPo/elaina-nod.mp4",
+      "https://media.tenor.com/oSQvUimhICgAAAPo/majo-no-tabitabi-the-journey-of-elaina.mp4",
+      "https://media.tenor.com/B_sVBZ4vBzYAAAPo/majo-no-tabitabi-the-journey-of-elaina.mp4",
     ];
     let rae = urlll[Math.floor(Math.random() * urlll.length)];
     await client.sendMessage(
