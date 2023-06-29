@@ -3,7 +3,7 @@ module.exports = {
   alias: ["h", "menu"],
   desc: "List all command",
   category: "General",
-  react: "✅",
+  react: "🎐",
   start: async (client, m, { commands, args, prefix, text, toUpper }) => {
     const { pushName, sender } = m;
     if (args[0]) {
@@ -36,7 +36,7 @@ module.exports = {
       ];
       let buth = {
         text: `*ℹ️Command Info*\n\n${data.join("\n")}`,
-        footer: "*©Eternity-Team*",
+        footer: "*🎐Ronen-Bots*",
         buttons: buttonss,
         headerType: 1,
       };
@@ -63,15 +63,18 @@ module.exports = {
         }
       }
       if (!nsfw.includes(m.from)) {
-        var emo = ["📖","🎉", "🍁", "🍀", "🌊", "🎵", "🎟", "♨️", "🉐"];
+        var emo = ["🧮","🎏", "🎗️", "🎍", "🎑", "🎶", "🎭", "♨️", "🔖"];
       } else {
-        var emo = ["📖","🎉", "🍁", "🍀", "🌊", "🎵", "🔞", "🎟", "♨️", "🉐"];
+        var emo = ["🧮","🎏", "🎗️", "🎍", "🎑", "🎶", "🔞", "🎭", "♨️", "🔖"];
       }
-      let txt = `*Kon'nichiwa (｡♡‿♡｡)* ${pushName} Watashiwa *Nezuko*.
-                       
-🧧 *Prefix :* [ ${prefix} ]
-                       
-📝 Here's the *Commands* listed below :\n\n`;
+      let txt = `*╭─「(💙^💙」
+│⋊ 𝕌𝕤𝕖𝕣: *${pushName}*
+│⋊ ℕ𝕒𝕞𝕖: 𝙀𝙇𝘼𝙄𝙉𝘼 𝘽𝙊𝙏
+│⋊ ℙ𝕣𝕖𝕗𝕚𝕩: *${prefix}*
+│⋊ 𝕆𝕨𝕟𝕖𝕣: *Ronen*
+│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: http://surl.li/eumln
+╰────────────┈エリーナ  
+Here's the list of my Commands.*\n\n`;
       const keys = Object.keys(category);
       for (const key of keys) {
         txt += `*${key.toUpperCase()} ${
@@ -81,7 +84,7 @@ module.exports = {
           .join(", ")}\`\`\`\n\n`;
       }
       txt += `📗 Type *${prefix}help* <Command-Name> or <Command-Name> --info\n\n`;
-      txt += `*©Eternity-Team*`
+      txt += `*🎐Ronen-Bots*`
       const eternity = [
         "https://images3.alphacoders.com/107/1078895.png",
         "https://images6.alphacoders.com/103/1037400.png",
