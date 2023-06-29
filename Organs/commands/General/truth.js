@@ -1,8 +1,8 @@
 require('../../../settings')
 const axios = require('axios')
 module.exports = {
-    name: "info",
-    alias: ["elaina,bot,ronen"],
+    name: "truth",
+    alias: ["t"],
     usage: `${prefa}info`,
     desc: "Will send you details of our bot",
     react: "🎐",
