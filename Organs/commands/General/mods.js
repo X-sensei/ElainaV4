@@ -4,7 +4,7 @@ module.exports = {
   usage: `${global.prefa}mods`,
   desc: "shows mods list",
   category: "General",
-  react: "✅",
+  react: "🎐",
 
   start: async (client, m, {}) => {
     const mod = global.owner;
