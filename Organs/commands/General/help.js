@@ -73,8 +73,8 @@ module.exports = {
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩: *${prefix}*
 │⋊ 𝕆𝕨𝕟𝕖𝕣: *Ronen*
 │⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: http://surl.li/eumln
-╰────────────┈エリーナ  
-Here's the list of my Commands.*\n\n`;
+╰────────────┈エリーナ* 
+*Here's the list of my Commands.*\n\n`;
       const keys = Object.keys(category);
       for (const key of keys) {
         txt += `*${key.toUpperCase()} ${
