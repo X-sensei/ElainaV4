@@ -3,7 +3,7 @@ const axios = require('axios')
 module.exports = {
     name: "truth",
     alias: ["t"],
-    usage: `${prefa}info`,
+    usage: `${prefa}truth`,
     desc: "Will send you details of our bot",
     react: "🎐",
     
@@ -15,12 +15,12 @@ module.exports = {
         args
     }) => {
 let yup = [
-            `hi`,
-            `hello`,
-            `kesa`,
-            `kh`,
-            `kch`,
-            `test`
+            "hi",
+            "hello",
+            "kesa",
+            "kh",
+            "kch",
+            "test"
           ]
 let nezuko = await axios.get('https://api.github.com/repos/EternityBots/Nezuko')
 let rae = yup[Math.floor(Math.random() * yup.length)]
