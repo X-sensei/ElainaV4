@@ -3,7 +3,7 @@ module.exports = {
   name: "stalk",
   alias: ["stalknumber"],
   usage: `${prefa}stalk 9181011679xx`,
-  react: "✅",
+  react: "🎐",
   desc: "To find all WhatsApp numbers in the provided range",
   category: "General",
   start: async (
