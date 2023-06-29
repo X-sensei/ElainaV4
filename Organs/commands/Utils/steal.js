@@ -11,10 +11,10 @@ module.exports = {
         if (!quoted) return m.reply(`❌ Could not find any sticker in context`)
         if (q) {
    anu = args.join(' ').split('|')
-   pack = anu[0] !== '' ? anu[0] : 'ETERNITY'
+   pack = anu[0] !== '' ? anu[0] : 'RONEN-BOTS'
    author = anu[1] !== '' ? anu[1] : 'THE BEST IS YET TO BE'
    } else {
-       pack = 'ETERNITY'
+       pack = 'RONEN-BOTS'
        author = 'THE BEST IS YET TO BE'
        }
 if(/webp/.test(mime)) {
