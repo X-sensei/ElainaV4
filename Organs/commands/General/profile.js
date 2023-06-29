@@ -9,7 +9,7 @@ module.exports={
     alias:["p"],
     usage:`${prefa}profile`,
     desc:"shows your profile",
-    react:"✅",
+    react:"🎐",
     category:"General",
     start:async(client,m,{command,pushName,groupName,isAdmin,iscreator,mentionByTag,prefix,text,args,quoted,mime})=>{
         
