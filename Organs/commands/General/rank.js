@@ -6,7 +6,7 @@ module.exports={
     alias: ["rank"],
     desc: "shows the rank",
     cool:3,
-    react:"✅",
+    react:"🎐",
     category: "General",
     start: async(client, m,{text,pushName,sender}) => {
         const userq = await Levels.fetch(m.sender, "bot");
