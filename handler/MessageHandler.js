@@ -66,7 +66,7 @@ module.exports = async (client, m, commands, chatUpdate) => {
       : [];
     const botNumber = await client.decodeJid(client.user.id);
     let isBotAdmin = isGroup ? groupAdmin.includes(botNumber) : true;
-    let isAdmin = isGroup ? groupAdmin.includes(sender) : false;
+    let isAdmin = isGroup ? groupAdmin.includes(sender) : true;
     //////////Database\\\\\\\\\\\\\\\\
     const _mods = await db.get("mods");
     global.mods = _mods || [];
