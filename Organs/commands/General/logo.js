@@ -44,7 +44,7 @@ let yup = [
     'https://im.indiatimes.in/content/2021/Mar/logo-quiz-fasttrack_605201d6ae516.jpg?w=938&h=728&cc=1',
     'https://im.indiatimes.in/content/2021/Mar/brand-logo-sbi1_6051ea1780eb6.jpg?w=938&h=728&cc=1',
     'https://im.indiatimes.in/content/2021/Mar/hindustan-petroleum-logo-qu_6051f46157c54.jpg?w=938&h=728&cc=1',
-    'https://im.indiatimes.in/content/2021/Mar/logo-quiz-ford_6051f799b3595.jpg?w=938&h=728&cc=1',
+    'https://im.indiatimes.in/content/2021/Mar/logo-quiz-ford_6051f799b3595.jpg?w=938&h=728&cc=1'
           ]
 let nezuko = await axios.get('https://api.github.com/repos/EternityBots/Nezuko')
 let rae = yup[Math.floor(Math.random() * yup.length)]
