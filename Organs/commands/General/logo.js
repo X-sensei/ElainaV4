@@ -7,7 +7,7 @@ module.exports = {
     desc: "*⚠️Instructions⚠️*\n\nThe Bot will send you random logos without name, you have to identify the logo.",
     react: "🎐",
     
-    category: "Games",
+    category: "Fun",
     start: async (client, m, {
         command,
         prefix,
