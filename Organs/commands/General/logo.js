@@ -51,7 +51,7 @@ let rae = yup[Math.floor(Math.random() * yup.length)]
 
 var rr = `*🎲RANDOM LOGO QUIZ🎲*
 
-*Can you tell the name of the Logo shown in the image?*'
+*Can you tell the name of the Logo shown in the image?*`
 await client.sendMessage(m.from,{image:{url:rae}, caption:rr},{quoted:m})
     }
 }
