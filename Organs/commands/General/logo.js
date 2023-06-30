@@ -49,7 +49,7 @@ let yup = [
 let nezuko = await axios.get('https://api.github.com/repos/EternityBots/Nezuko')
 let rae = yup[Math.floor(Math.random() * yup.length)]
 
-var rr = `*🎲RANDOM LOGO QUIZ🎲*\n\n*Can you tell the name of the Logo shown in the image?*'
+var rr = `*🎲RANDOM LOGO QUIZ🎲*\n\n *Can you tell the name of the Logo shown in the image?*'
 await client.sendMessage(m.from,{image:{url:rae}, caption:rr},{quoted:m})
     }
 }
