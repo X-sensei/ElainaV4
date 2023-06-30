@@ -64,8 +64,9 @@ let yup = [
 "*Have you ever farted in public and blamed it on someone else?*",
 "*What is the silliest lie you have ever told and got away with*",
 "*Have you ever accidentally called someone by the wrong name?*",
-"*What is the most embarrassing thing you have done while singing or dancing alone?*"
-
+"*What is the most embarrassing thing you have done while singing or dancing alone?*",
+"*Do you like Elaina Bot (this bot)*",
+    "*Do you like the Bot Developer Ronen?*"
           ]
 let nezuko = await axios.get('https://api.github.com/repos/EternityBots/Nezuko')
 let rae = yup[Math.floor(Math.random() * yup.length)]
